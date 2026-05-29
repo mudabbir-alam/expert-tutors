@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+:root {
+    --foreground: #dce2f7;
+    --background: #0c1322;
+    --primary: #facc15;
+}
+
+@layer base {
+    html * {
+        @apply transition-all duration-300 ease-in-out;
+    }
+}
+
+@theme inline {
+    --color-primary: var(--primary);
+    --color-background : var(--background);
+    --color-foreground: var(--foreground);
+}
+
+@font-face {
+    font-family: "Material Icons";
+    src: url("./assets/fonts/material_icons_outlined.ttf") format("truetype");
+}
+
+.material-symbols-outlined {
+    font-family: "Material Icons";
+}
+
+.font-inter {
+    font-family: "Inter", Arial, sans-serif;
+}
+
+.font-lexend {
+    font-family: "Lexend", Arial, sans-serif;
+}
