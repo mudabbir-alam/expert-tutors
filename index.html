@@ -9,379 +9,528 @@
 </head>
 
 <body class="font-lexend bg-background text-foreground relative">
-  <a href="https://wa.me/+923103939992" target="_blank" class="bg-[url('/wa.svg')] bg-size-[70%] bg-no-repeat bg-green-500 bg-center rounded-full h-16 w-16 fixed bottom-4 right-4 md:bottom-8 md:right-8 z-10"></a>
-  <div class="w-full border-b border-slate-600 fixed top-0 z-10 bg-background">
-    <header class="w-full h-16 lg:h-20 flex justify-between items-center px-4 md:px-16 max-w-7xl mx-auto">
-      <a href="#">
-        <div id="header-logo" class="text-primary flex items-center gap-1 text-lg lg:text-xl"><span
-            class="text-2xl lg:3xl material-symbols-outlined">book_5</span>ExpertTutors</div>
-      </a>
-      <nav class="hidden lg:flex gap-8 list-none text-yellow-100/80">
-        <li><a href="#services" class="hover:text-primary/80">Services</a></li>
-        <li><a href="#testimonials" class="hover:text-primary/80">Testimonials</a></li>
-        <li><a href="#about" class="hover:text-primary/80">About</a></li>
-        <li><a href="#contact" class="hover:text-primary/80">Contact</a></li>
-        <li><a href="#faqs" class="hover:text-primary/80">FAQ</a></li>
-      </nav>
-      <a href="#contact" class="bg-primary rounded-lg py-2 px-3 font-bold text-background">Book a session</a>
-    </header>
+  <div id="skeleton">
+
+    <!-- HEADER SKELETON -->
+    <div class="fixed top-0 w-full border-b border-slate-700 bg-background z-10">
+      <div class="h-16 lg:h-20 flex justify-between items-center px-4 md:px-16 max-w-7xl mx-auto">
+
+        <div class="h-6 w-40 bg-slate-700 rounded animate-pulse"></div>
+
+        <div class="hidden lg:flex gap-8">
+          <div class="h-4 w-16 bg-slate-700 rounded animate-pulse"></div>
+          <div class="h-4 w-20 bg-slate-700 rounded animate-pulse"></div>
+          <div class="h-4 w-16 bg-slate-700 rounded animate-pulse"></div>
+          <div class="h-4 w-20 bg-slate-700 rounded animate-pulse"></div>
+        </div>
+
+        <div class="h-10 w-28 bg-slate-700 rounded-lg animate-pulse"></div>
+      </div>
+    </div>
+
+    <main class="pt-24 px-4 md:px-16 max-w-7xl mx-auto space-y-20">
+
+      <!-- HERO SKELETON -->
+      <section class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+
+        <div class="space-y-5">
+          <div class="h-6 w-64 bg-slate-700 rounded animate-pulse"></div>
+          <div class="h-12 w-full bg-slate-700 rounded animate-pulse"></div>
+          <div class="h-4 w-3/4 bg-slate-700 rounded animate-pulse"></div>
+
+          <div class="flex gap-4 mt-6">
+            <div class="h-12 w-40 bg-slate-700 rounded-full animate-pulse"></div>
+            <div class="h-12 w-40 bg-slate-700 rounded-full animate-pulse"></div>
+          </div>
+
+          <div class="flex gap-8 mt-8">
+            <div class="h-10 w-32 bg-slate-700 rounded animate-pulse"></div>
+            <div class="h-10 w-24 bg-slate-700 rounded animate-pulse"></div>
+          </div>
+        </div>
+
+        <div class="aspect-square bg-slate-700 rounded-2xl animate-pulse"></div>
+      </section>
+
+      <!-- STATS SKELETON -->
+      <section class="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <div class="h-20 bg-slate-700 rounded-xl animate-pulse"></div>
+        <div class="h-20 bg-slate-700 rounded-xl animate-pulse"></div>
+        <div class="h-20 bg-slate-700 rounded-xl animate-pulse"></div>
+        <div class="h-20 bg-slate-700 rounded-xl animate-pulse"></div>
+      </section>
+
+      <!-- SERVICES SKELETON -->
+      <section class="space-y-8">
+        <div class="h-10 w-1/2 mx-auto bg-slate-700 rounded animate-pulse"></div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+          <div class="h-48 bg-slate-700 rounded-xl animate-pulse"></div>
+          <div class="h-48 bg-slate-700 rounded-xl animate-pulse"></div>
+          <div class="h-48 bg-slate-700 rounded-xl animate-pulse"></div>
+          <div class="h-48 bg-slate-700 rounded-xl animate-pulse"></div>
+          <div class="h-48 bg-slate-700 rounded-xl animate-pulse"></div>
+          <div class="h-48 bg-slate-700 rounded-xl animate-pulse"></div>
+
+        </div>
+      </section>
+
+      <!-- WHY CHOOSE US -->
+      <section class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <div class="h-32 bg-slate-700 rounded-xl animate-pulse"></div>
+
+        <div class="grid grid-cols-2 gap-4">
+          <div class="h-24 bg-slate-700 rounded-xl animate-pulse"></div>
+          <div class="h-24 bg-slate-700 rounded-xl animate-pulse"></div>
+          <div class="h-24 bg-slate-700 rounded-xl animate-pulse"></div>
+          <div class="h-24 bg-slate-700 rounded-xl animate-pulse"></div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="aspect-square bg-slate-700 rounded-2xl animate-pulse"></div>
+        <div class="space-y-4">
+          <div class="h-8 w-3/4 bg-slate-700 rounded animate-pulse"></div>
+          <div class="h-4 w-full bg-slate-700 rounded animate-pulse"></div>
+          <div class="h-4 w-full bg-slate-700 rounded animate-pulse"></div>
+          <div class="h-4 w-2/3 bg-slate-700 rounded animate-pulse"></div>
+        </div>
+      </section>
+
+      <!-- TESTIMONIALS -->
+      <section class="space-y-6">
+        <div class="h-10 w-1/2 mx-auto bg-slate-700 rounded animate-pulse"></div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div class="h-40 bg-slate-700 rounded-xl animate-pulse"></div>
+          <div class="h-40 bg-slate-700 rounded-xl animate-pulse"></div>
+          <div class="h-40 bg-slate-700 rounded-xl animate-pulse"></div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="space-y-6">
+        <div class="h-10 w-1/2 mx-auto bg-slate-700 rounded animate-pulse"></div>
+
+        <div class="h-96 bg-slate-700 rounded-2xl animate-pulse"></div>
+      </section>
+
+      <!-- FAQ -->
+      <section class="space-y-4">
+        <div class="h-10 w-1/2 mx-auto bg-slate-700 rounded animate-pulse"></div>
+
+        <div class="h-16 bg-slate-700 rounded-xl animate-pulse"></div>
+        <div class="h-16 bg-slate-700 rounded-xl animate-pulse"></div>
+        <div class="h-16 bg-slate-700 rounded-xl animate-pulse"></div>
+      </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="border-t border-slate-700 mt-20 p-10">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto">
+
+        <div class="h-24 bg-slate-700 rounded animate-pulse"></div>
+        <div class="h-24 bg-slate-700 rounded animate-pulse"></div>
+        <div class="h-24 bg-slate-700 rounded animate-pulse"></div>
+
+      </div>
+    </footer>
+  </div>
+  </div>
+  <div id="app" class="hidden">
+    <a href="https://wa.me/+923103939992" target="_blank"
+      class="bg-[url('/wa.svg')] bg-size-[70%] bg-no-repeat bg-green-500 bg-center rounded-full h-16 w-16 fixed bottom-4 right-4 md:bottom-8 md:right-8 z-10"></a>
+    <div class="w-full border-b border-slate-600 fixed top-0 z-10 bg-background">
+      <header class="w-full h-16 lg:h-20 flex justify-between items-center px-4 md:px-16 max-w-7xl mx-auto">
+        <a href="#">
+          <div id="header-logo" class="text-primary flex items-center gap-1 text-lg lg:text-xl"><span
+              class="text-2xl lg:3xl material-symbols-outlined">book_5</span>ExpertTutors</div>
+        </a>
+        <nav class="hidden lg:flex gap-8 list-none text-yellow-100/80">
+          <li><a href="#services" class="hover:text-primary/80">Services</a></li>
+          <li><a href="#testimonials" class="hover:text-primary/80">Testimonials</a></li>
+          <li><a href="#about" class="hover:text-primary/80">About</a></li>
+          <li><a href="#contact" class="hover:text-primary/80">Contact</a></li>
+          <li><a href="#faqs" class="hover:text-primary/80">FAQ</a></li>
+        </nav>
+        <a href="#contact" class="bg-primary rounded-lg py-2 px-3 font-bold text-background">Book a session</a>
+      </header>
+    </div>
+
+    <main class="px-4 md:px-16 max-w-7xl mx-auto mt-16">
+      <section id="hero" class="grid grid-cols-1 lg:grid-cols-2 py-16 gap-12 items-center">
+        <div id="hero-left">
+          <div id="label"
+            class="w-fit rounded-xl px-4 flex gap-1 justify-center bg-slate-100/20 text-sm text-yellow-100/80"><span
+              class="text-primary material-symbols-outlined">stars</span> PREMIUM ACADEMIC COACHING</div>
+          <h1 class="mt-8 text-[42px] lg:text-6xl font-bold leading-tight text-foreground">Helping Students Achieve
+            Academic <span class="text-primary">Success</span></h1>
+          <p class="text-yellow-200/70 lg:text-lg mt-2">Expert tutoring tailored for high-performance students. We
+            bridge the
+            gap between effort and excellence with
+            personalized mentorship.</p>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 mt-8">
+            <a href="#contact" class="py-3 bg-primary rounded-3xl text-center font-medium text-background text-lg">Book
+              a
+              session</a>
+            <a href="https://wa.me/03103939992" target="_blank"
+              class="py-3 rounded-3xl text-center font-medium text-foreground border border-slate-600 text-lg">Chat
+              on WhatsApp</a>
+          </div>
+          <div class="flex gap-8 mt-8">
+            <div class="flex  flex-col text-sm text-yellow-200/80 border-r border-slate-600 pr-12"><span
+                class="text-foreground text-3xl font-bold">500+</span>Students Helped</div>
+            <div class="flex flex-col text-sm text-yellow-200/80"><span
+                class="text-3xl font-bold flex items-center gap-1 text-foreground">4.9<span
+                  class="material-symbols-outlined text-2xl font-bold text-primary"
+                  style="font-variation-settings: &quot;FILL&quot; 1;">star</span></span>Rating</div>
+          </div>
+        </div>
+
+        <div id="hero-right" class="bg-[url(/hero.png)] aspect-square rounded-2xl bg-cover bg-center"></div>
+      </section>
+      <section class="grid grid-cols-2 space-y-3 md:grid-cols-4 py-12 mb-20 bg-slate-600/50 rounded-2xl my-4">
+        <div class="flex flex-col text-center items-center font-semibold"><span
+            class="text-primary text-4xl">500+</span>Students Success Stories</div>
+        <div class="flex flex-col text-center items-center font-semibold"><span
+            class="text-primary text-4xl">95%</span>Success Rate</div>
+        <div class="flex flex-col text-center items-center font-semibold"><span
+            class="text-primary text-4xl">5+</span>Years Excellence</div>
+        <div class="flex flex-col text-center items-center font-semibold"><span
+            class="text-primary text-4xl">24/7</span>Student Support</div>
+      </section>
+      <section id="services" class="py-20 border-t border-slate-600">
+        <h2 class="text-center text-4xl lg:text-5xl font-bold mb-4">Comprehensive Academic Mastery</h2>
+        <p class="lg:w-3/5 text-center mx-auto lg:text-lg text-yellow-200/80">From core sciences to advanced technology,
+          our
+          expert-led modules are designed to push the boundaries of
+          student potential.</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-16 gap-8">
+          <div class="bg-slate-800/80 p-6 md:p-8 rounded-xl flex flex-col group">
+            <div
+              class="material-symbols-outlined group-hover:text-background group-hover:bg-primary text-4xl p-2 rounded-lg text-primary bg-background/80 w-fit">
+              calculate
+            </div>
+            <h3 class="text-3xl my-3 font-semibold">Mathematics</h3>
+            <p class="text-yellow-200/80 mb-4">Calculus, Linear Algebra, and Advanced Statistics. We make complex
+              structures intuitive.</p>
+            <a href="#contact" class="text-primary text-lg flex gap-2">Learn More <span
+                class="text-xl material-symbols-outlined inline w-fit">arrow_forward</span></a>
+          </div>
+          <div class="bg-slate-800/80 p-6 md:p-8 rounded-xl flex flex-col group">
+            <div
+              class="material-symbols-outlined group-hover:text-background group-hover:bg-primary text-4xl p-2 rounded-lg text-primary bg-background/80 w-fit">
+              rocket_launch
+            </div>
+            <h3 class="text-3xl my-3 font-semibold">Physics</h3>
+            <p class="text-yellow-200/80 mb-4">From Newton's laws to Quantum Mechanics. Master the fundamental laws of
+              our
+              universe.</p>
+            <a href="#contact" class="text-primary text-lg flex gap-2">Learn More <span
+                class="text-xl material-symbols-outlined inline w-fit">arrow_forward</span></a>
+          </div>
+          <div class="bg-slate-800/80 p-6 md:p-8 rounded-xl flex flex-col group">
+            <div
+              class="material-symbols-outlined group-hover:text-background group-hover:bg-primary text-4xl p-2 rounded-lg text-primary bg-background/80 w-fit">
+              biotech
+            </div>
+            <h3 class="text-3xl my-3 font-semibold">Chemistry</h3>
+            <p class="text-yellow-200/80 mb-4">Organic synthesis to chemical equilibrium. Deep dives into molecular
+              interactions.</p>
+            <a href="#contact" class="text-primary text-lg flex gap-2">Learn More <span
+                class="text-xl material-symbols-outlined inline w-fit">arrow_forward</span></a>
+          </div>
+          <div class="bg-slate-800/80 p-6 md:p-8 rounded-xl flex flex-col group">
+            <div
+              class="material-symbols-outlined group-hover:text-background group-hover:bg-primary text-4xl p-2 rounded-lg text-primary bg-background/80 w-fit">
+              edit_note
+            </div>
+            <h3 class="text-3xl my-3 font-semibold">English</h3>
+            <p class="text-yellow-200/80 mb-4">Literature analysis, rhetoric, and advanced composition. Mastering the
+              art
+              of communication.</p>
+            <a href="#contact" class="text-primary text-lg flex gap-2">Learn More <span
+                class="text-xl material-symbols-outlined inline w-fit">arrow_forward</span></a>
+          </div>
+          <div class="bg-slate-800/80 p-6 md:p-8 rounded-xl flex flex-col group">
+            <div
+              class="material-symbols-outlined group-hover:text-background group-hover:bg-primary text-4xl p-2 rounded-lg text-primary bg-background/80 w-fit">
+              terminal
+            </div>
+            <h3 class="text-3xl my-3 font-semibold">Computer</h3>
+            <p class="text-yellow-200/80 mb-4">Algorithms, Data Structures, and Software Engineering. Building the
+              future
+              of tech.</p>
+            <a href="#contact" class="text-primary text-lg flex gap-2">Learn More <span
+                class="text-xl material-symbols-outlined inline w-fit">arrow_forward</span></a>
+          </div>
+          <div class="bg-primary p-6 md:p-8 rounded-xl flex flex-col group text-background">
+            <div class="material-symbols-outlined text-4xl p-2 rounded-lg text-primary bg-background w-fit">live_help
+            </div>
+            <h3 class="text-3xl my-3 font-semibold">Something Else?</h3>
+            <p class="text-slate-600 mb-4">Our expert team also have more experienced teachers and we are always here to
+              help you.</p>
+            <a href="#contact" class="text-primary text-lg flex gap-2 bg-slate-800 py-2 px-4 rounded-lg">Contact Us<span
+                class="text-xl material-symbols-outlined">arrow_forward</span></a>
+          </div>
+        </div>
+      </section>
+      <section id="why-choose-us" class="py-16 border-t border-slate-600 flex flex-col lg:flex-row gap-6 items-center">
+        <div class="basis-2/3">
+          <h2 class="font-bold text-4xl lg:text-5xl mb-4">Why Choose Us?</h2>
+          <p class="lg:text-lg text-yellow-200/60">We don't just teach; we mentor. Our methodology is built on 5 pillars
+            of
+            academic excellence that guarantee
+            student growth.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div class="border border-slate-600 p-4 lg:py-6 lg:px-8 bg-slate-800 rounded-2xl">
+            <span class="material-symbols-outlined text-2xl text-primary">school</span>
+            <h4 class="font-bold text-lg my-2">Experienced Tutors</h4>
+            <p class="text-sm text-yellow-200/80">Top 1% educators from Ivy League and Elite universities.</p>
+          </div>
+          <div class="border border-slate-600 p-4 lg:py-6 lg:px-8 bg-slate-800 rounded-2xl">
+            <span class="material-symbols-outlined text-2xl text-primary">person_search</span>
+            <h4 class="font-bold text-lg my-2">Personalized Learning</h4>
+            <p class="text-sm text-yellow-200/80">Adaptive curriculum based on individual pace and goals.</p>
+          </div>
+          <div class="border border-slate-600 p-4 lg:py-6 lg:px-8 bg-slate-800 rounded-2xl">
+            <span class="material-symbols-outlined text-2xl text-primary">calendar_today</span>
+            <h4 class="font-bold text-lg my-2">Flexible Timings</h4>
+            <p class="text-sm text-yellow-200/80">Sessions available 24/7 to fit any student's hectic schedule.</p>
+          </div>
+          <div class="border border-slate-600 p-4 lg:py-6 lg:px-8 bg-slate-800 rounded-2xl">
+            <span class="material-symbols-outlined text-2xl text-primary">payments</span>
+            <h4 class="font-bold text-lg my-2">Affordable Price</h4>
+            <p class="text-sm text-yellow-200/80">Premium education designed to be accessible for families.</p>
+          </div>
+        </div>
+
+
+      </section>
+      <section id="about" class="grid grid-cols-1 md:grid-cols-2 py-16 border-t border-slate-600 lg:py-20 gap-16">
+        <div id="about-left" class="bg-[url('/about.png')] bg-center rounded-3xl aspect-square md:aspect-auto"></div>
+        <div id="about-right">
+          <h2 class="text-4xl lg:text-5xl font-semibold mb-6">Our Philosophy: Elite Clarity</h2>
+          <p class="lg:text-lg text-yellow-200/60 mb-6">At Expert Tutors, we believe that academic rigor should not be a
+            source of stress, but a catalyst for
+            growth. Our approach, "Elite Clarity," focuses on deconstructing complex theoretical frameworks into
+            intuitive, actionable knowledge.</p>
+          <p class="lg:text-lg text-yellow-200/60 mb-10">Every student possesses a unique intellectual fingerprint. Our
+            job
+            is to identify that pattern and provide
+            the precise tools needed to unlock higher-tier performance. Through disciplined mentorship and modern
+            pedagogical techniques, we transform high-potential students into academic leaders.</p>
+          <div class="flex md:justify-center p-4 gap-4 bg-slate-800/80 rounded-xl items-center md:w-fit">
+            <span class="material-symbols-outlined text-primary text-3xl">verified_user</span>
+            <div class="flex flex-col text-sm">Accredited Excellence<span class="text-yellow-200/80">Certified tutoring
+                methodologies</span></div>
+          </div>
+        </div>
+      </section>
+      <section id="testimonials" class="py-16 lg:py-20 border-t border-slate-600">
+        <h2 class="text-4xl lg:text-5xl font-bold text-center mb-4">Voice of Excellence</h2>
+        <p class="text-center lg:text-lg text-yellow-200/80">Hear from the students and parents who achieved their
+          dreams
+          with Expert Tutors.</p>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+          <div class="rounded-2xl bg-slate-800/80 border border-slate-600 px-6 py-4 relative flex flex-col">
+            <div class="material-symbols-outlined absolute -top-12 -left-4 text-[120px] text-primary/10"
+              style="font-variation-settings: &quot;FILL&quot; 1;">format_quote</div>
+            <div class="flex gap-1 my-2">
+              <span class="material-symbols-outlined text-2xl text-primary"
+                style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+              <span class="material-symbols-outlined text-2xl text-primary"
+                style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+              <span class="material-symbols-outlined text-2xl text-primary"
+                style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+              <span class="material-symbols-outlined text-2xl text-primary"
+                style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+              <span class="material-symbols-outlined text-2xl text-primary"
+                style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+            </div>
+            <p class="text-yellow-200/80 mb-4 grow"><i>"The personalized approach for Physics made concepts I struggled
+                with
+                for months clear in just three
+                sessions. I went from a B to an A+."</i></p>
+            <p class="font-semibold flex flex-col">John Doe<span class="text-sm font-light text-primary/80">AP. PHYSICS
+                STUDENT</span></p>
+            <div class="text-right mt-2 text-slate-300">Google Reviews</div>
+          </div>
+
+          <div class="rounded-2xl bg-slate-800/80 border border-slate-600 px-6 py-4 relative flex flex-col">
+            <div class="material-symbols-outlined absolute -top-12 -left-4 text-[120px] text-primary/10"
+              style="font-variation-settings: &quot;FILL&quot; 1;">format_quote</div>
+            <div class="flex gap-1 my-2">
+              <span class="material-symbols-outlined text-2xl text-primary"
+                style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+              <span class="material-symbols-outlined text-2xl text-primary"
+                style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+              <span class="material-symbols-outlined text-2xl text-primary"
+                style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+              <span class="material-symbols-outlined text-2xl text-primary"
+                style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+              <span class="material-symbols-outlined text-2xl text-primary"
+                style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+            </div>
+            <p class="text-yellow-200/80 mb-4 grow"><i>"Expert Tutors are on another level. They don't just teach the
+                syllabus;
+                they teach you how to think like an expert. Highly recommended for CS."
+              </i></p>
+            <p class="font-semibold flex flex-col">Sarah M.<span class="text-sm font-light text-primary/80">CS
+                MAJOR</span></p>
+            <div class="text-right mt-2 text-slate-300">LinkedIn</div>
+          </div>
+          <div class="rounded-2xl bg-slate-800/80 border border-slate-600 px-6 py-4 relative flex flex-col">
+            <div class="material-symbols-outlined absolute -top-12 -left-4 text-[120px] text-primary/10"
+              style="font-variation-settings: &quot;FILL&quot; 1;">format_quote</div>
+            <div class="flex gap-1 my-2">
+              <span class="material-symbols-outlined text-2xl text-primary"
+                style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+              <span class="material-symbols-outlined text-2xl text-primary"
+                style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+              <span class="material-symbols-outlined text-2xl text-primary"
+                style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+              <span class="material-symbols-outlined text-2xl text-primary"
+                style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+              <span class="material-symbols-outlined text-2xl text-primary"
+                style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+
+            </div>
+
+            <p class="text-yellow-200/80 mb-4 grow"><i>"The flexibility saved my grades. Being able to book sessions
+                around my
+                sports training was crucial for my SAT prep."
+              </i></p>
+            <p class="font-semibold flex flex-col">Ryan K.<span class="text-sm font-light text-primary/80">12th Grade
+                Student</span></p>
+            <div class="text-right mt-2 text-slate-300">Google Reviews</div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="py-16 lg:py-20 border-t border-slate-600">
+        <div class="px-4 py-8 md:p-12 bg-slate-800 border border-primary/20 mx-auto rounded-3xl max-w-4xl mt-6">
+          <h2 class="text-4xl lg:text-5xl font-semibold text-center mb-4">Start Your Journey</h2>
+          <p class="lg:text-lg text-center text-primary/80 mb-6">Fill out the form below and an academic advisor will
+            reach out
+            to you within 6 hours.</p>
+          <form id="contact-form" class="space-y-8" method="post">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12">
+              <div>
+                <label for="name" class="ml-1">Full Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter Full Name..."
+                  class="w-full h-12 bg-background p-2 mt-2 border-slate-400 border rounded-lg">
+              </div>
+              <div>
+                <label for="email" class="ml-1">Email Address</label>
+                <input type="email" name="email" id="email" placeholder="Enter Email Address..."
+                  class="w-full h-12 bg-background p-2 mt-2 border-slate-400 border rounded-lg">
+              </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12">
+              <div>
+                <label for="phone" class="ml-1">Phone Number</label>
+                <input type="tel" name="phone" id="phone" pattern="^\+?\d{7,15}$" placeholder="Enter Phone Number..."
+                  class="w-full h-12 bg-background p-2 mt-2 border-slate-400 border rounded-lg">
+              </div>
+              <div>
+                <label for="education" class="ml-1">Education Level</label>
+                <select name="education" id="education"
+                  class="w-full h-12 bg-background mt-2 p-2 border border-slate-400 rounded-lg">
+                  <option value="pre-primary">Pre-Primary</option>
+                  <option value="primary">Primary</option>
+                  <option value="elementary">Elementary</option>
+                </select>
+              </div>
+            </div>
+            <div class="w-full flex flex-col">
+              <label for="message">Your message</label>
+              <textarea name="message" id="message" rows="6" placeholder="Enter message here..."
+                class="border p-2 bg-background border-slate-400 rounded-lg mt-2"></textarea>
+            </div>
+            <button type="submit"
+              class="flex w-full cursor-pointer font-semibold items-center justify-center gap-2 text-lg bg-primary text-background p-2 rounded-lg mt-12">Send
+              Message <span class="material-symbols-outlined text-2xl">send</span></button>
+
+          </form>
+        </div>
+      </section>
+
+      <section id="faqs" class="py-16 lg:py-20 border-t border-slate-600">
+        <h2 class="text-4xl lg:text-5xl text-center font-bold mb-8">Frequently Asked Questions</h2>
+        <div
+          class="faq w-full max-w-3xl duration-500 max-h-16 lg:text-lg rounded-xl bg-slate-800 mx-auto my-4 overflow-hidden">
+          <button class="w-full h-full max-h-16 flex justify-between items-center p-6 cursor-pointer group">How do I
+            choose the right
+            tutor for my child? <span
+              class="material-symbols-outlined text-2xl group-hover:text-primary">keyboard_arrow_down</span></button>
+          <div class="p-6">Our tutors undergo a rigorous 4-step selection process including subject matter
+            testing, mock teaching sessions, background checks, and pedagogy training. Only the top 5% of applicants are
+            accepted.</div>
+        </div>
+        <div
+          class="group faq lg:text-lg w-full duration-500 max-w-3xl max-h-16 rounded-xl bg-slate-800 mx-auto my-4 overflow-hidden">
+          <button class="cursor-pointer w-full h-full max-h-16 flex justify-between items-center p-6">Can I change my
+            tutor if it is not a good match? <span
+              class="material-symbols-outlined text-2xl group-hover:text-primary">keyboard_arrow_down</span></button>
+          <div class="p-6">Absolutely. We believe that student-teacher relationship is very important for success. If
+            for
+            any reason the match is not perfect, we will facilitate a switch immediately at no extra cost.</div>
+        </div>
+        <div
+          class="group faq lg:text-lg w-full duration-500 max-w-3xl max-h-16 rounded-xl bg-slate-800 mx-auto my-4 overflow-hidden">
+          <button class="cursor-pointer w-full h-full max-h-16 flex justify-between items-center p-6">What platforms are
+            used for online sessions? <span
+              class="material-symbols-outlined text-2xl group-hover:text-primary">keyboard_arrow_down</span></button>
+          <div class="p-6">We use Google Meet or Zoom Meetings for online sessions which provide tools like interactive
+            collaborative whiteboards,in-meeting voice and text chats etc. to ensure seamless learning experience.</div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="w-full border-t border-slate-600 py-12">
+      <div class="w-full max-w-7xl mx-auto px-4 lg:px-16 grid grid-cols-1 md:grid-cols-3 gap-12">
+        <div class="">
+          <div id="footer-logo" class="text-primary flex items-center gap-1 text-xl"><span
+              class="text-3xl material-symbols-outlined">book_5</span>ExpertTutors
+          </div>
+          <p class="mt-4 text-yellow-200/60">Redefining academic excellence through personalized, elite-tier mentorship
+            for the next generation of
+            leaders.</p>
+          <div class="mt-4 flex items-center gap-6">
+            <a href="https://www.facebook.com"><span class="bg-[url('/fb.svg')] h-6 aspect-square block"></span></a>
+            <a href="https://www.youtube.com"><span class="bg-[url('/yt.svg')] h-6 aspect-square block"></span></a>
+            <a href="https://www.linkedin.com"><span class="bg-[url('/li.svg')] h-6 aspect-square block"></span></a>
+          </div>
+        </div>
+        <div class="flex-col flex lg:pl-8">
+          <h5 class="text-lg font-medium mb-4">Contact</h5>
+          <a href="tel:+923103939992" class="mb-2 w-fit text-yellow-200/60 hover:text-primary">Phone</a>
+          <a href="mailto:mudabbiralamacademy@gmail.com"
+            class="mb-2 w-fit text-yellow-200/60 hover:text-primary">Email</a>
+          <a href="https://wa.me/+923103939992" class="w-fit text-yellow-200/60 hover:text-primary">WhatsApp</a>
+        </div>
+        <div>
+          <h5 class="text-lg font-medium mb-4">Location</h5>
+          <p class="text-yellow-200/60">699-601 E 11th St, New York, NY 10009, USA</p>
+          <a href="https://maps.app.goo.gl/DEAogoaW2fyAh38M7" target="_blank"
+            class="mt-2 flex gap-2 items-center text-slate-300">Open in Google Maps <span
+              class="text-lg text-blue-500 material-symbols-outlined">arrow_outward</span></a>
+        </div>
+      </div>
+      <p
+        class="text-sm md:text-base text-primary/80 w-full max-w-7xl text-center mx-auto pt-8 mt-6 border-t border-slate-600">
+        &copy; Copyright <span id="current-year"></span> Expert Tutors New York | All rights reserved</p>
+    </footer>
   </div>
 
-  <main class="px-4 md:px-16 max-w-7xl mx-auto mt-16">
-    <section id="hero" class="grid grid-cols-1 lg:grid-cols-2 py-16 gap-12 items-center">
-      <div id="hero-left">
-        <div id="label"
-          class="w-fit rounded-xl px-4 flex gap-1 justify-center bg-slate-100/20 text-sm text-yellow-100/80"><span
-            class="text-primary material-symbols-outlined">stars</span> PREMIUM ACADEMIC COACHING</div>
-        <h1 class="mt-8 text-[42px] lg:text-6xl font-bold leading-tight text-foreground">Helping Students Achieve Academic <span
-            class="text-primary">Success</span></h1>
-        <p class="text-yellow-200/70 lg:text-lg mt-2">Expert tutoring tailored for high-performance students. We bridge the
-          gap between effort and excellence with
-          personalized mentorship.</p>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 mt-8">
-          <a href="#contact" class="py-3 bg-primary rounded-3xl text-center font-medium text-background text-lg">Book a
-            session</a>
-          <a href="https://wa.me/03103939992" target="_blank"
-            class="py-3 rounded-3xl text-center font-medium text-foreground border border-slate-600 text-lg">Chat
-            on WhatsApp</a>
-        </div>
-        <div class="flex gap-8 mt-8">
-          <div class="flex  flex-col text-sm text-yellow-200/80 border-r border-slate-600 pr-12"><span
-              class="text-foreground text-3xl font-bold">500+</span>Students Helped</div>
-          <div class="flex flex-col text-sm text-yellow-200/80"><span
-              class="text-3xl font-bold flex items-center gap-1 text-foreground">4.9<span
-                class="material-symbols-outlined text-2xl font-bold text-primary" style="font-variation-settings: &quot;FILL&quot; 1;">star</span></span>Rating</div>
-        </div>
-      </div>
-
-      <div id="hero-right" class="bg-[url(/hero.png)] aspect-square rounded-2xl bg-cover bg-center"></div>
-    </section>
-    <section class="grid grid-cols-2 space-y-3 md:grid-cols-4 py-12 mb-20 bg-slate-600/50 rounded-2xl my-4">
-      <div class="flex flex-col text-center items-center font-semibold"><span
-          class="text-primary text-4xl">500+</span>Students Success Stories</div>
-      <div class="flex flex-col text-center items-center font-semibold"><span
-          class="text-primary text-4xl">95%</span>Success Rate</div>
-      <div class="flex flex-col text-center items-center font-semibold"><span
-          class="text-primary text-4xl">5+</span>Years Excellence</div>
-      <div class="flex flex-col text-center items-center font-semibold"><span
-          class="text-primary text-4xl">24/7</span>Student Support</div>
-    </section>
-    <section id="services" class="py-20 border-t border-slate-600">
-      <h2 class="text-center text-4xl lg:text-5xl font-bold mb-4">Comprehensive Academic Mastery</h2>
-      <p class="lg:w-3/5 text-center mx-auto lg:text-lg text-yellow-200/80">From core sciences to advanced technology, our
-        expert-led modules are designed to push the boundaries of
-        student potential.</p>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-16 gap-8">
-        <div class="bg-slate-800/80 p-6 md:p-8 rounded-xl flex flex-col group">
-          <div
-            class="material-symbols-outlined group-hover:text-background group-hover:bg-primary text-4xl p-2 rounded-lg text-primary bg-background/80 w-fit">
-            calculate
-          </div>
-          <h3 class="text-3xl my-3 font-semibold">Mathematics</h3>
-          <p class="text-yellow-200/80 mb-4">Calculus, Linear Algebra, and Advanced Statistics. We make complex
-            structures intuitive.</p>
-          <a href="#contact" class="text-primary text-lg flex gap-2">Learn More <span
-              class="text-xl material-symbols-outlined inline w-fit">arrow_forward</span></a>
-        </div>
-        <div class="bg-slate-800/80 p-6 md:p-8 rounded-xl flex flex-col group">
-          <div
-            class="material-symbols-outlined group-hover:text-background group-hover:bg-primary text-4xl p-2 rounded-lg text-primary bg-background/80 w-fit">
-            rocket_launch
-          </div>
-          <h3 class="text-3xl my-3 font-semibold">Physics</h3>
-          <p class="text-yellow-200/80 mb-4">From Newton's laws to Quantum Mechanics. Master the fundamental laws of our
-            universe.</p>
-          <a href="#contact" class="text-primary text-lg flex gap-2">Learn More <span
-              class="text-xl material-symbols-outlined inline w-fit">arrow_forward</span></a>
-        </div>
-        <div class="bg-slate-800/80 p-6 md:p-8 rounded-xl flex flex-col group">
-          <div
-            class="material-symbols-outlined group-hover:text-background group-hover:bg-primary text-4xl p-2 rounded-lg text-primary bg-background/80 w-fit">
-            biotech
-          </div>
-          <h3 class="text-3xl my-3 font-semibold">Chemistry</h3>
-          <p class="text-yellow-200/80 mb-4">Organic synthesis to chemical equilibrium. Deep dives into molecular
-            interactions.</p>
-          <a href="#contact" class="text-primary text-lg flex gap-2">Learn More <span
-              class="text-xl material-symbols-outlined inline w-fit">arrow_forward</span></a>
-        </div>
-        <div class="bg-slate-800/80 p-6 md:p-8 rounded-xl flex flex-col group">
-          <div
-            class="material-symbols-outlined group-hover:text-background group-hover:bg-primary text-4xl p-2 rounded-lg text-primary bg-background/80 w-fit">
-            edit_note
-          </div>
-          <h3 class="text-3xl my-3 font-semibold">English</h3>
-          <p class="text-yellow-200/80 mb-4">Literature analysis, rhetoric, and advanced composition. Mastering the art
-            of communication.</p>
-          <a href="#contact" class="text-primary text-lg flex gap-2">Learn More <span
-              class="text-xl material-symbols-outlined inline w-fit">arrow_forward</span></a>
-        </div>
-        <div class="bg-slate-800/80 p-6 md:p-8 rounded-xl flex flex-col group">
-          <div
-            class="material-symbols-outlined group-hover:text-background group-hover:bg-primary text-4xl p-2 rounded-lg text-primary bg-background/80 w-fit">
-            terminal
-          </div>
-          <h3 class="text-3xl my-3 font-semibold">Computer</h3>
-          <p class="text-yellow-200/80 mb-4">Algorithms, Data Structures, and Software Engineering. Building the future
-            of tech.</p>
-          <a href="#contact" class="text-primary text-lg flex gap-2">Learn More <span
-              class="text-xl material-symbols-outlined inline w-fit">arrow_forward</span></a>
-        </div>
-        <div class="bg-primary p-6 md:p-8 rounded-xl flex flex-col group text-background">
-          <div class="material-symbols-outlined text-4xl p-2 rounded-lg text-primary bg-background w-fit">live_help
-          </div>
-          <h3 class="text-3xl my-3 font-semibold">Something Else?</h3>
-          <p class="text-slate-600 mb-4">Our expert team also have more experienced teachers and we are always here to
-            help you.</p>
-          <a href="#contact" class="text-primary text-lg flex gap-2 bg-slate-800 py-2 px-4 rounded-lg">Contact Us<span
-              class="text-xl material-symbols-outlined">arrow_forward</span></a>
-        </div>
-      </div>
-    </section>
-    <section id="why-choose-us" class="py-16 border-t border-slate-600 flex flex-col lg:flex-row gap-6 items-center">
-      <div class="basis-2/3">
-        <h2 class="font-bold text-4xl lg:text-5xl mb-4">Why Choose Us?</h2>
-        <p class="lg:text-lg text-yellow-200/60">We don't just teach; we mentor. Our methodology is built on 5 pillars of
-          academic excellence that guarantee
-          student growth.</p>
-      </div>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div class="border border-slate-600 p-4 lg:py-6 lg:px-8 bg-slate-800 rounded-2xl">
-          <span class="material-symbols-outlined text-2xl text-primary">school</span>
-          <h4 class="font-bold text-lg my-2">Experienced Tutors</h4>
-          <p class="text-sm text-yellow-200/80">Top 1% educators from Ivy League and Elite universities.</p>
-        </div>
-        <div class="border border-slate-600 p-4 lg:py-6 lg:px-8 bg-slate-800 rounded-2xl">
-          <span class="material-symbols-outlined text-2xl text-primary">person_search</span>
-          <h4 class="font-bold text-lg my-2">Personalized Learning</h4>
-          <p class="text-sm text-yellow-200/80">Adaptive curriculum based on individual pace and goals.</p>
-        </div>
-        <div class="border border-slate-600 p-4 lg:py-6 lg:px-8 bg-slate-800 rounded-2xl">
-          <span class="material-symbols-outlined text-2xl text-primary">calendar_today</span>
-          <h4 class="font-bold text-lg my-2">Flexible Timings</h4>
-          <p class="text-sm text-yellow-200/80">Sessions available 24/7 to fit any student's hectic schedule.</p>
-        </div>
-        <div class="border border-slate-600 p-4 lg:py-6 lg:px-8 bg-slate-800 rounded-2xl">
-          <span class="material-symbols-outlined text-2xl text-primary">payments</span>
-          <h4 class="font-bold text-lg my-2">Affordable Price</h4>
-          <p class="text-sm text-yellow-200/80">Premium education designed to be accessible for families.</p>
-        </div>
-      </div>
-
-
-    </section>
-    <section id="about" class="grid grid-cols-1 md:grid-cols-2 py-16 border-t border-slate-600 lg:py-20 gap-16">
-      <div id="about-left" class="bg-[url('/about.png')] bg-center rounded-3xl aspect-square md:aspect-auto"></div>
-      <div id="about-right">
-        <h2 class="text-4xl lg:text-5xl font-semibold mb-6">Our Philosophy: Elite Clarity</h2>
-        <p class="lg:text-lg text-yellow-200/60 mb-6">At Expert Tutors, we believe that academic rigor should not be a
-          source of stress, but a catalyst for
-          growth. Our approach, "Elite Clarity," focuses on deconstructing complex theoretical frameworks into
-          intuitive, actionable knowledge.</p>
-        <p class="lg:text-lg text-yellow-200/60 mb-10">Every student possesses a unique intellectual fingerprint. Our job
-          is to identify that pattern and provide
-          the precise tools needed to unlock higher-tier performance. Through disciplined mentorship and modern
-          pedagogical techniques, we transform high-potential students into academic leaders.</p>
-        <div class="flex md:justify-center p-4 gap-4 bg-slate-800/80 rounded-xl items-center md:w-fit">
-          <span class="material-symbols-outlined text-primary text-3xl">verified_user</span>
-          <div class="flex flex-col text-sm">Accredited Excellence<span class="text-yellow-200/80">Certified tutoring
-              methodologies</span></div>
-        </div>
-      </div>
-    </section>
-    <section id="testimonials" class="py-16 lg:py-20 border-t border-slate-600">
-      <h2 class="text-4xl lg:text-5xl font-bold text-center mb-4">Voice of Excellence</h2>
-      <p class="text-center lg:text-lg text-yellow-200/80">Hear from the students and parents who achieved their dreams
-        with Expert Tutors.</p>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
-        <div class="rounded-2xl bg-slate-800/80 border border-slate-600 px-6 py-4 relative flex flex-col">
-          <div class="material-symbols-outlined absolute -top-12 -left-4 text-[120px] text-primary/10"
-            style="font-variation-settings: &quot;FILL&quot; 1;">format_quote</div>
-          <div class="flex gap-1 my-2">
-            <span class="material-symbols-outlined text-2xl text-primary"
-              style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
-            <span class="material-symbols-outlined text-2xl text-primary"
-              style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
-            <span class="material-symbols-outlined text-2xl text-primary"
-              style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
-            <span class="material-symbols-outlined text-2xl text-primary"
-              style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
-            <span class="material-symbols-outlined text-2xl text-primary"
-              style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
-          </div>
-          <p class="text-yellow-200/80 mb-4 grow"><i>"The personalized approach for Physics made concepts I struggled
-              with
-              for months clear in just three
-              sessions. I went from a B to an A+."</i></p>
-          <p class="font-semibold flex flex-col">John Doe<span class="text-sm font-light text-primary/80">AP. PHYSICS
-              STUDENT</span></p>
-          <div class="text-right mt-2 text-slate-300">Google Reviews</div>
-        </div>
-
-        <div class="rounded-2xl bg-slate-800/80 border border-slate-600 px-6 py-4 relative flex flex-col">
-          <div class="material-symbols-outlined absolute -top-12 -left-4 text-[120px] text-primary/10"
-            style="font-variation-settings: &quot;FILL&quot; 1;">format_quote</div>
-          <div class="flex gap-1 my-2">
-            <span class="material-symbols-outlined text-2xl text-primary"
-              style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
-            <span class="material-symbols-outlined text-2xl text-primary"
-              style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
-            <span class="material-symbols-outlined text-2xl text-primary"
-              style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
-            <span class="material-symbols-outlined text-2xl text-primary"
-              style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
-            <span class="material-symbols-outlined text-2xl text-primary"
-              style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
-          </div>
-          <p class="text-yellow-200/80 mb-4 grow"><i>"Expert Tutors are on another level. They don't just teach the
-              syllabus;
-              they teach you how to think like an expert. Highly recommended for CS."
-            </i></p>
-          <p class="font-semibold flex flex-col">Sarah M.<span class="text-sm font-light text-primary/80">CS
-              MAJOR</span></p>
-          <div class="text-right mt-2 text-slate-300">LinkedIn</div>
-        </div>
-        <div class="rounded-2xl bg-slate-800/80 border border-slate-600 px-6 py-4 relative flex flex-col">
-          <div class="material-symbols-outlined absolute -top-12 -left-4 text-[120px] text-primary/10"
-            style="font-variation-settings: &quot;FILL&quot; 1;">format_quote</div>
-          <div class="flex gap-1 my-2">
-            <span class="material-symbols-outlined text-2xl text-primary"
-              style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
-            <span class="material-symbols-outlined text-2xl text-primary"
-              style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
-            <span class="material-symbols-outlined text-2xl text-primary"
-              style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
-            <span class="material-symbols-outlined text-2xl text-primary"
-              style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
-            <span class="material-symbols-outlined text-2xl text-primary"
-              style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
-
-          </div>
-
-          <p class="text-yellow-200/80 mb-4 grow"><i>"The flexibility saved my grades. Being able to book sessions
-              around my
-              sports training was crucial for my SAT prep."
-            </i></p>
-          <p class="font-semibold flex flex-col">Ryan K.<span class="text-sm font-light text-primary/80">12th Grade
-              Student</span></p>
-          <div class="text-right mt-2 text-slate-300">Google Reviews</div>
-        </div>
-      </div>
-    </section>
-    <section id="contact" class="py-16 lg:py-20 border-t border-slate-600">
-      <div class="px-4 py-8 md:p-12 bg-slate-800 border border-primary/20 mx-auto rounded-3xl max-w-4xl mt-6">
-      <h2 class="text-4xl lg:text-5xl font-semibold text-center mb-4">Start Your Journey</h2>
-      <p class="lg:text-lg text-center text-primary/80 mb-6">Fill out the form below and an academic advisor will reach out
-        to you within 6 hours.</p>
-      <form id="contact-form" class="space-y-8" method="post">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12">
-          <div>
-            <label for="name" class="ml-1">Full Name</label>
-            <input type="text" name="name" id="name" placeholder="Enter Full Name..."
-              class="w-full h-12 bg-background p-2 mt-2 border-slate-400 border rounded-lg">
-          </div>
-          <div>
-            <label for="email" class="ml-1">Email Address</label>
-            <input type="email" name="email" id="email" placeholder="Enter Email Address..."
-              class="w-full h-12 bg-background p-2 mt-2 border-slate-400 border rounded-lg">
-          </div>
-        </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12">
-          <div>
-            <label for="phone" class="ml-1">Phone Number</label>
-            <input type="tel" name="phone" id="phone" pattern="^\+?\d{7,15}$" placeholder="Enter Phone Number..."
-              class="w-full h-12 bg-background p-2 mt-2 border-slate-400 border rounded-lg">
-          </div>
-          <div>
-            <label for="education" class="ml-1">Education Level</label>
-            <select name="education" id="education"
-              class="w-full h-12 bg-background mt-2 p-2 border border-slate-400 rounded-lg">
-              <option value="pre-primary">Pre-Primary</option>
-              <option value="primary">Primary</option>
-              <option value="elementary">Elementary</option>
-            </select>
-          </div>
-        </div>
-        <div class="w-full flex flex-col">
-          <label for="message">Your message</label>
-          <textarea name="message" id="message" rows="6" placeholder="Enter message here..."
-            class="border p-2 bg-background border-slate-400 rounded-lg mt-2"></textarea>
-        </div>
-        <button type="submit"
-          class="flex w-full cursor-pointer font-semibold items-center justify-center gap-2 text-lg bg-primary text-background p-2 rounded-lg mt-12">Send
-          Message <span class="material-symbols-outlined text-2xl">send</span></button>
-
-      </form>
-    </div>
-    </section>
-    
-    <section id="faqs" class="py-16 lg:py-20 border-t border-slate-600">
-      <h2 class="text-4xl lg:text-5xl text-center font-bold mb-8">Frequently Asked Questions</h2>
-      <div
-        class="faq w-full max-w-3xl duration-500 max-h-16 lg:text-lg rounded-xl bg-slate-800 mx-auto my-4 overflow-hidden">
-        <button class="w-full h-full max-h-16 flex justify-between items-center p-6 cursor-pointer group">How do I
-          choose the right
-          tutor for my child? <span
-            class="material-symbols-outlined text-2xl group-hover:text-primary">keyboard_arrow_down</span></button>
-        <div class="p-6">Our tutors undergo a rigorous 4-step selection process including subject matter
-          testing, mock teaching sessions, background checks, and pedagogy training. Only the top 5% of applicants are
-          accepted.</div>
-      </div>
-      <div
-        class="group faq lg:text-lg w-full duration-500 max-w-3xl max-h-16 rounded-xl bg-slate-800 mx-auto my-4 overflow-hidden">
-        <button class="cursor-pointer w-full h-full max-h-16 flex justify-between items-center p-6">Can I change my
-          tutor if it is not a good match? <span
-            class="material-symbols-outlined text-2xl group-hover:text-primary">keyboard_arrow_down</span></button>
-        <div class="p-6">Absolutely. We believe that student-teacher relationship is very important for success. If for
-          any reason the match is not perfect, we will facilitate a switch immediately at no extra cost.</div>
-      </div>
-      <div
-        class="group faq lg:text-lg w-full duration-500 max-w-3xl max-h-16 rounded-xl bg-slate-800 mx-auto my-4 overflow-hidden">
-        <button class="cursor-pointer w-full h-full max-h-16 flex justify-between items-center p-6">What platforms are
-          used for online sessions? <span
-            class="material-symbols-outlined text-2xl group-hover:text-primary">keyboard_arrow_down</span></button>
-        <div class="p-6">We use Google Meet or Zoom Meetings for online sessions which provide tools like interactive
-          collaborative whiteboards,in-meeting voice and text chats etc. to ensure seamless learning experience.</div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="w-full border-t border-slate-600 py-12">
-    <div class="w-full max-w-7xl mx-auto px-4 lg:px-16 grid grid-cols-1 md:grid-cols-3 gap-12">
-      <div class="">
-        <div id="footer-logo" class="text-primary flex items-center gap-1 text-xl"><span
-            class="text-3xl material-symbols-outlined">book_5</span>ExpertTutors
-        </div>
-        <p class="mt-4 text-yellow-200/60">Redefining academic excellence through personalized, elite-tier mentorship
-          for the next generation of
-          leaders.</p>
-        <div class="mt-4 flex items-center gap-6">
-          <a href="https://www.facebook.com"><span class="bg-[url('/fb.svg')] h-6 aspect-square block"></span></a>
-          <a href="https://www.youtube.com"><span class="bg-[url('/yt.svg')] h-6 aspect-square block"></span></a>
-          <a href="https://www.linkedin.com"><span class="bg-[url('/li.svg')] h-6 aspect-square block"></span></a>
-        </div>
-      </div>
-      <div class="flex-col flex lg:pl-8">
-        <h5 class="text-lg font-medium mb-4">Contact</h5>
-        <a href="tel:+923103939992" class="mb-2 w-fit text-yellow-200/60 hover:text-primary">Phone</a>
-        <a href="mailto:mudabbiralamacademy@gmail.com" class="mb-2 w-fit text-yellow-200/60 hover:text-primary">Email</a>
-        <a href="https://wa.me/+923103939992" class="w-fit text-yellow-200/60 hover:text-primary">WhatsApp</a>
-      </div>
-      <div>
-        <h5 class="text-lg font-medium mb-4">Location</h5>
-        <p class="text-yellow-200/60">699-601 E 11th St, New York, NY 10009, USA</p>
-        <a href="https://maps.app.goo.gl/DEAogoaW2fyAh38M7" target="_blank"
-          class="mt-2 flex gap-2 items-center text-slate-300">Open in Google Maps <span
-            class="text-lg text-blue-500 material-symbols-outlined">arrow_outward</span></a>
-      </div>
-    </div>
-    <p class="text-sm md:text-base text-primary/80 w-full max-w-7xl text-center mx-auto pt-8 mt-6 border-t border-slate-600">&copy; Copyright <span
-        id="current-year"></span> Expert Tutors New York | All rights reserved</p>
-  </footer>
   <script src="./src/faq.js" type="module">
 
   </script>
   <script src="./src/contact.js" type="module"></script>
+  <script src="./src/loading.js" type="module"></script>
   <script>
     document.getElementById('current-year').innerText = new Date().getFullYear();
   </script>
